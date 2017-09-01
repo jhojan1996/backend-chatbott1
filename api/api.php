@@ -14,7 +14,7 @@ if($saved == 1){
 	$response = array(
 		"status"=>"200",
 		"msj"=>"Success",
-		"url"=>"https://backend-chatbott1.scm.azurewebsites.net/api/".$filename
+		"url"=>"https://backend-chatbott1.azurewebsites.net/api/".$filename
 	);
 }else{
 	$response = array(
