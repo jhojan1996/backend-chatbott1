@@ -4,7 +4,7 @@ $tmp_name = $_FILES["data"]["tmp_name"];
 $upload_name = $_FILES["data"]["name"];
 $type = $_FILES["data"]["type"];
 $date = new DateTime();
-$result = $date->format('Y-m-d H:i:s');
+$result = $date->format('Y-m-d-H-i-s');
 $filename = "$result.wav";
 $saved = 0;
 
