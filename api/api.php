@@ -20,6 +20,7 @@ if($saved == 1){
 	$response = array(
 		"status"=>"500",
 		"msj"=>"Error guardando el archivo",
+		"archivo"=>$filename
 	);
 }
 
