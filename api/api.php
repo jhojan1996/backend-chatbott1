@@ -1,7 +1,5 @@
 <?php
 
-var_dump($_FILES);
-
 $tmp_name = $_FILES["blob"]["tmp_name"];
 $upload_name = $_FILES["blob"]["name"];
 $type = $_FILES["blob"]["type"];
@@ -14,6 +12,8 @@ $response = array(
 	"status"=>"200",
 	"msj"=>"Success"
 );
+
+var_dump($_FILES);
 
 echo json_encode($response);
 
