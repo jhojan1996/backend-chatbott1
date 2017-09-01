@@ -1,8 +1,8 @@
 <?php
 
-$tmp_name = $_FILES["blob"]["tmp_name"];
-$upload_name = $_FILES["blob"]["name"];
-$type = $_FILES["blob"]["type"];
+$tmp_name = $_FILES["data"]["tmp_name"];
+$upload_name = $_FILES["data"]["name"];
+$type = $_FILES["data"]["type"];
 $filename = "test3.wav";
 $saved = 0;
 
