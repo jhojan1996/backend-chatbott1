@@ -1,5 +1,7 @@
 <?php
 
+var_dump($_FILES);
+
 $tmp_name = $_FILES["blob"]["tmp_name"];
 $upload_name = $_FILES["blob"]["name"];
 $type = $_FILES["blob"]["type"];
