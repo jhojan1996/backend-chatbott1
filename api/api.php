@@ -3,7 +3,9 @@
 $tmp_name = $_FILES["data"]["tmp_name"];
 $upload_name = $_FILES["data"]["name"];
 $type = $_FILES["data"]["type"];
-$filename = date("Y-m-d h:i:s").".wav";
+$date = new DateTime();
+$result = $date->format('Y-m-d H:i:s');
+$filename = "$result.wav";
 $saved = 0;
 
 $saved = move_uploaded_file($tmp_name, $filename) ? 1 : 0;
